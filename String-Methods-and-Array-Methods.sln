@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32228.430
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "String-Methods-and-Array-Methods", "String-Methods-and-Array-Methods\String-Methods-and-Array-Methods.csproj", "{A3B6574D-7B24-4119-9292-A4C8CBA50375}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A3B6574D-7B24-4119-9292-A4C8CBA50375}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3B6574D-7B24-4119-9292-A4C8CBA50375}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3B6574D-7B24-4119-9292-A4C8CBA50375}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3B6574D-7B24-4119-9292-A4C8CBA50375}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {91AF5FE9-81D4-44BB-BD99-8F368973FD64}
+	EndGlobalSection
+EndGlobal

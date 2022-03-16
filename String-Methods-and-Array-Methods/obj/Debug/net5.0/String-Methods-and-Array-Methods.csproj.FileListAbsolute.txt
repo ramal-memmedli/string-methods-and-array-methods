@@ -1,0 +1,16 @@
+C:\Users\Ramal\Desktop\C# Projects\String-Methods-and-Array-Methods\String-Methods-and-Array-Methods\obj\Debug\net5.0\String-Methods-and-Array-Methods.csproj.AssemblyReference.cache
+C:\Users\Ramal\Desktop\C# Projects\String-Methods-and-Array-Methods\String-Methods-and-Array-Methods\obj\Debug\net5.0\String-Methods-and-Array-Methods.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ramal\Desktop\C# Projects\String-Methods-and-Array-Methods\String-Methods-and-Array-Methods\obj\Debug\net5.0\String-Methods-and-Array-Methods.AssemblyInfoInputs.cache
+C:\Users\Ramal\Desktop\C# Projects\String-Methods-and-Array-Methods\String-Methods-and-Array-Methods\obj\Debug\net5.0\String-Methods-and-Array-Methods.AssemblyInfo.cs
+C:\Users\Ramal\Desktop\C# Projects\String-Methods-and-Array-Methods\String-Methods-and-Array-Methods\obj\Debug\net5.0\String-Methods-and-Array-Methods.csproj.CoreCompileInputs.cache
+C:\Users\Ramal\Desktop\C# Projects\String-Methods-and-Array-Methods\String-Methods-and-Array-Methods\bin\Debug\net5.0\String-Methods-and-Array-Methods.exe
+C:\Users\Ramal\Desktop\C# Projects\String-Methods-and-Array-Methods\String-Methods-and-Array-Methods\bin\Debug\net5.0\String-Methods-and-Array-Methods.deps.json
+C:\Users\Ramal\Desktop\C# Projects\String-Methods-and-Array-Methods\String-Methods-and-Array-Methods\bin\Debug\net5.0\String-Methods-and-Array-Methods.runtimeconfig.json
+C:\Users\Ramal\Desktop\C# Projects\String-Methods-and-Array-Methods\String-Methods-and-Array-Methods\bin\Debug\net5.0\String-Methods-and-Array-Methods.runtimeconfig.dev.json
+C:\Users\Ramal\Desktop\C# Projects\String-Methods-and-Array-Methods\String-Methods-and-Array-Methods\bin\Debug\net5.0\String-Methods-and-Array-Methods.dll
+C:\Users\Ramal\Desktop\C# Projects\String-Methods-and-Array-Methods\String-Methods-and-Array-Methods\bin\Debug\net5.0\String-Methods-and-Array-Methods.pdb
+C:\Users\Ramal\Desktop\C# Projects\String-Methods-and-Array-Methods\String-Methods-and-Array-Methods\obj\Debug\net5.0\String-Methods-and-Array-Methods.dll
+C:\Users\Ramal\Desktop\C# Projects\String-Methods-and-Array-Methods\String-Methods-and-Array-Methods\obj\Debug\net5.0\refint\String-Methods-and-Array-Methods.dll
+C:\Users\Ramal\Desktop\C# Projects\String-Methods-and-Array-Methods\String-Methods-and-Array-Methods\obj\Debug\net5.0\String-Methods-and-Array-Methods.pdb
+C:\Users\Ramal\Desktop\C# Projects\String-Methods-and-Array-Methods\String-Methods-and-Array-Methods\obj\Debug\net5.0\String-Methods-and-Array-Methods.genruntimeconfig.cache
+C:\Users\Ramal\Desktop\C# Projects\String-Methods-and-Array-Methods\String-Methods-and-Array-Methods\obj\Debug\net5.0\ref\String-Methods-and-Array-Methods.dll
