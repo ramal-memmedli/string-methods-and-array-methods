@@ -19,14 +19,11 @@ namespace String_Methods_and_Array_Methods
             string newString = "";
             int startIndex = 0;
 
-
             if (inputString[0] == ' ')
             {
                 for (int i = 0; i < inputString.Length; i++)
                 {
-                    if (inputString[i] == ' ')
-                    {
-                    }
+                    if (inputString[i] == ' ') {}
                     else
                     {
                         startIndex = i;
@@ -38,9 +35,7 @@ namespace String_Methods_and_Array_Methods
             {
                 for (int i = 0; i < inputString.Length; i++)
                 {
-                    if (inputString[i] == inputChar)
-                    {
-                    }
+                    if (inputString[i] == inputChar) {}
                     else
                     {
                         startIndex = i;
@@ -48,11 +43,7 @@ namespace String_Methods_and_Array_Methods
                     }
                 }
             }
-
-            for (int i = startIndex; i < inputString.Length; i++)
-            {
-                newString += inputString[i];
-            }
+            for (int i = startIndex; i < inputString.Length; i++) newString += inputString[i];
             return newString;
         }
         public static string NewTrimEnd(string inputString)
@@ -68,9 +59,7 @@ namespace String_Methods_and_Array_Methods
             {
                 for (int i = inputString.Length - 1; i >= 0; i--)
                 {
-                    if (inputString[i] == ' ')
-                    {
-                    }
+                    if (inputString[i] == ' ') {}
                     else
                     {
                         endIndex = i;
@@ -82,9 +71,7 @@ namespace String_Methods_and_Array_Methods
             {
                 for (int i = inputString.Length - 1; i >= 0; i--)
                 {
-                    if (inputString[i] == inputChar)
-                    {
-                    }
+                    if (inputString[i] == inputChar) {}
                     else
                     {
                         endIndex = i;
@@ -92,15 +79,9 @@ namespace String_Methods_and_Array_Methods
                     }
                 }
             }
-            else
-            {
-                return inputString;
-            }
+            else return inputString;
 
-            for (int i = 0; i <= endIndex; i++)
-            {
-                newString += inputString[i];
-            }
+            for (int i = 0; i <= endIndex; i++) newString += inputString[i];
             return newString;
         }
         public static string NewTrim(string inputString)
@@ -121,7 +102,7 @@ namespace String_Methods_and_Array_Methods
             int index = 0;
             for (int i = startIndex; i < inputString.Length; i++)
             {
-                if(inputString[i] == inputChar)
+                if (inputString[i] == inputChar)
                 {
                     index = i;
                     break;
@@ -159,25 +140,11 @@ namespace String_Methods_and_Array_Methods
                             indexOfString = i;
                         }
                     }
-                    if (inputIndexString.Length == counter)
-                    {
-                        break;
-                    }
+                    if (inputIndexString.Length == counter) break;
                 }
-                if (inputIndexString.Length == counter)
-                {
-                    break;
-                }
+                if (inputIndexString.Length == counter) break;
             }
-            if (counter == inputIndexString.Length)
-            {
-                index = indexOfString;
-            }
-            else
-            {
-                index = -1;
-            }
-            return index;
+            return SetIndex(inputIndexString, indexOfString, counter, index);
         }
 
         public static int NewLastIndexOf(string inputString, char inputChar)
@@ -210,6 +177,7 @@ namespace String_Methods_and_Array_Methods
                         {
                             for (int z = i; z < i + inputIndexString.Length; z++)
                             {
+
                                 if (inputString[z] == inputIndexString[j])
                                 {
                                     counter++;
@@ -223,17 +191,17 @@ namespace String_Methods_and_Array_Methods
                             indexOfString = i;
                         }
                     }
-                    if(inputIndexString.Length == counter)
-                    {
-                        break;
-                    }
+                    if(inputIndexString.Length == counter) break;
                 }
-                if (inputIndexString.Length == counter)
-                {
-                    break;
-                }
+                if (inputIndexString.Length == counter) break;
             }
-            if (counter == inputIndexString.Length)
+
+            return SetIndex(inputIndexString, indexOfString, counter, index);
+        }
+
+        public static int SetIndex(string inputIndexString, int indexOfString, int counter,int index)
+        {
+            if(counter == inputIndexString.Length)
             {
                 index = indexOfString;
             }
@@ -243,6 +211,7 @@ namespace String_Methods_and_Array_Methods
             }
             return index;
         }
+
         #endregion
 
         #region Contains
