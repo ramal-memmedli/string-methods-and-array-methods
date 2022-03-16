@@ -6,6 +6,7 @@ namespace String_Methods_and_Array_Methods
     {
         static void Main(string[] args)
         {
+
         }
 
         #region Trim
@@ -91,6 +92,10 @@ namespace String_Methods_and_Array_Methods
                     }
                 }
             }
+            else
+            {
+                return inputString;
+            }
 
             for (int i = 0; i <= endIndex; i++)
             {
@@ -109,6 +114,7 @@ namespace String_Methods_and_Array_Methods
             return result;
         }
         #endregion
+
         #region IndexOf
         public static int NewIndexOf(string inputString, char inputChar, int startIndex = 0)
         {
@@ -153,6 +159,14 @@ namespace String_Methods_and_Array_Methods
                             indexOfString = i;
                         }
                     }
+                    if (inputIndexString.Length == counter)
+                    {
+                        break;
+                    }
+                }
+                if (inputIndexString.Length == counter)
+                {
+                    break;
                 }
             }
             if (counter == inputIndexString.Length)
@@ -230,6 +244,7 @@ namespace String_Methods_and_Array_Methods
             return index;
         }
         #endregion
+
         #region Contains
         public static bool NewContains(string inputString, char inputChar)
         {
